@@ -19,6 +19,8 @@ int main(void){
     float f1 = 0;
     int opt = 0;
     float price = 0;
+    int day = 0;
+    int age = 0;
 
     printf("Please enter two numbers pressing the enter key after each one:\n");
     scanf("%f", &f0);
@@ -60,24 +62,91 @@ int main(void){
 
         case 1:
             price = 0.79;
-            printf("The item you chose was an apple which costs $%g/each.", price);
             break;
         case 2:
             price = 2.99;
-            printf("The item you chose was bread which costs $%g/loaf.", price);
             break;
         case 3:
             price = 4.57;
-            printf("The item you chose was cheese which costs $%g/lb.", price);
             break;
         case 4:
             price = 1.99;
-            printf("The item you chose was pasta which costs $%g/lb.", price);
             break;
         case 5:
             price = 4.82;
-            printf("The item you chose was chicken which costs $%g/lb.", price);
             break;
+
+    }
+
+    printf("The item you chose costs $%g.\n\n", price);
+
+    printf("Time to determine the bedtime of a child.\n");
+    printf("Please enter the age of a child (must be a number 0-18):\n");
+
+    scanf("%d", &age);
+
+    printf("\n");
+
+    printf("Please enter the number of the day of the week.\n");
+    printf("1 = Sunday and 7 = Saturday (must be a number 1-7).\n");
+
+    scanf("%d", &day);
+
+    printf("\n");
+
+    if(age < 0 || age > 17){
+
+        printf("Number for age is not a number 0-17");
+
+    }
+
+    else if(day < 1 || day > 7){
+
+        printf("Number for day is not a number 1-7.");
+
+    }
+
+    else if(age >= 0 && age <= 5){
+
+        printf("The child should go to sleep at 7pm");
+
+    }
+
+    else if(age >= 6 && age <= 10){
+
+        if(day >= 1 && day <= 5){
+
+            printf("The child should go to sleep at 8pm");
+
+        }
+
+        else{
+
+            printf("The child should go to sleep at 9pm");
+
+        }
+
+    }
+
+    else{
+
+        if(day >= 1 && day <= 5){
+
+            printf("The child should go to sleep at 9pm");
+
+        }
+
+        else if(day == 6){
+
+            printf("The child should go to sleep at 12am");
+
+        }
+
+        else{
+
+            printf("The child should go to sleep at 11pm");
+
+        }
 
     }
 
