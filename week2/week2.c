@@ -4,9 +4,14 @@
  Author      : Jerry Ray Nelson III
  Version     : 1.0.0
  Copyright   : Jerry Ray Nelson III 11/2022, all rights reserved.
-                            Any reproduction or use without express written consent is prohibited
-							and will be prosecuted to the fullest extent of the law.
- Description : Hello World in C, Ansi-style
+                        Any reproduction or use without express written consent is prohibited
+						and will be prosecuted to the fullest extent of the law.
+ Description : Asks a user to enter two numbers and then tells the user which
+                        is the minimum and which is the maximum.
+                        Asks the user to pick an item from a list of options to buy and then
+                        displays the price for that item.
+                        Asks the user to enter the age of a child and the number of the day
+                        and then returns an appropriate bedtime for that child.
  ============================================================================
  */
 
