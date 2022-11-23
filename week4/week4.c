@@ -26,13 +26,13 @@ int findMinimum(int* a, int* b){
 
     if((*a) < (*b)){
 
-        printf("The minimum is %d\n", *a);
+        printf("The minimum value is: %d\n\n", *a);
 
     }
 
     else{
 
-        printf("The minimum is %d\n", *b);
+        printf("The minimum value is: %d\n\n", *b);
 
     }
 
@@ -45,9 +45,9 @@ int main(void){
     int a = 0;
     int b = 0;
 
-    printf("Before function call: a is %d and b is %d\n", a, b);
+    printf("Before function call: a is %d and b is %d\n\n", a, b);
     findMinimum(&a, &b);
-    printf("After function call: a is %d and b is %d\n", a, b);
+    printf("After function call: a is %d and b is %d\n\n", a, b);
 
     return EXIT_SUCCESS;
 
