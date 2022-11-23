@@ -4,16 +4,16 @@
  Author      : Jerry Ray Nelson III
  Version     : 1.0.0
  Copyright   : Jerry Ray Nelson III 11/2022, all rights reserved.
-                        Any reproduction or use without express written consent is prohibited
-						and will be prosecuted to the fullest extent of the law.
+                Any reproduction or use without express written consent is prohibited
+                and will be prosecuted to the fullest extent of the law.
  Description : Takes two numbers to determine the minimum value between the two.
-                        Displays the minimum value of the two numbers input by the user.
-                        Uses pointers to allow the function to see the variables that the numbers
-                        are stored in and modify them even though they are not local to the function.
-                        Takes the account number, account name, and account balance of a bank account,
-                        and then stores the data in a structure.
-                        Then passes the structure to another function that displays the data for the user to
-                        see.
+                Displays the minimum value of the two numbers input by the user.
+                Uses pointers to allow the function to see the variables that the numbers
+                are stored in and modify them even though they are not local to the function.
+                Takes the account number, account name, and account balance of a bank account,
+                and then stores the data in a structure.
+                Then passes the structure to another function that displays the data for the user to
+                see.
  ============================================================================
  */
 
